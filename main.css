@@ -1,11 +1,13 @@
 .toph1s{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: right;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:black;
 }
-#score{
-    margin-left: 1.8%;
+h1{
+    display: flex;
+    justify-content: center;
 }
 .none{
     border: 5px solid black;
@@ -65,5 +67,9 @@
     font-size: 100px;
 }
 #biggestContainer{
-    margin-left: 22%;
+    
+}
+#board{
+    display: flex;
+    justify-content: center;
 }
